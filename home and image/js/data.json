@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Sign language support",
+    "gifSrc": "images/signDeaf.png",
+    "children": [
+      {
+        "label": "How can I use Absher services?",
+        "gifSrc": "images/signDeaf.png",
+        "children": []
+      },
+      {
+        "label": "Visit the contact section for direct support channels.",
+        "gifSrc": "images/signDeaf.png",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "General support",
+    "gifSrc": "images/signDeaf.png",
+    "children": [
+      {
+        "label": "Use the footer links to open support and policy pages.",
+        "gifSrc": "images/signDeaf.png",
+        "children": []
+      },
+      {
+        "label": "Local preview mode keeps this helper available without remote APIs.",
+        "gifSrc": "images/signDeaf.png",
+        "children": []
+      }
+    ]
+  }
+]

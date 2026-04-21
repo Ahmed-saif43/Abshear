@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="mapTitle mapDesc">
+  <title id="mapTitle">Offline Kiosk Preview Map</title>
+  <desc id="mapDesc">A local preview map with three highlighted regions for kiosk browsing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4fbf7"/>
+      <stop offset="100%" stop-color="#d7efe1"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" rx="24" fill="url(#bg)"/>
+  <g transform="translate(78 46)">
+    <path d="M190 14 251 32 308 89 347 88 408 134 423 187 462 219 445 276 406 295 391 340 339 359 303 334 264 345 221 329 167 344 118 307 89 256 111 204 87 163 114 108 151 85Z" fill="#edf6f0" stroke="#0b7b54" stroke-width="8" stroke-linejoin="round"/>
+    <path data-region="western" d="M124 107 151 86 188 14 212 62 204 127 182 181 148 208 112 204 88 164Z" fill="#9fd8ba" stroke="#0b7b54" stroke-width="4" stroke-linejoin="round"/>
+    <path data-region="central" d="M204 127 212 62 251 32 308 89 347 88 331 161 303 191 255 204 205 189 182 181Z" fill="#66be93" stroke="#0b7b54" stroke-width="4" stroke-linejoin="round"/>
+    <path data-region="eastern" d="M331 161 347 88 408 134 423 187 462 219 445 276 406 295 391 340 339 359 303 334 264 345 255 204 303 191Z" fill="#2f9d72" stroke="#0b7b54" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="160" cy="157" r="8" fill="#084f38"/>
+    <circle cx="262" cy="147" r="8" fill="#084f38"/>
+    <circle cx="368" cy="214" r="8" fill="#084f38"/>
+    <text x="122" y="236" fill="#084f38" font-family="Arial, sans-serif" font-size="24" font-weight="700">Western</text>
+    <text x="228" y="235" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Central</text>
+    <text x="344" y="385" fill="#084f38" font-family="Arial, sans-serif" font-size="24" font-weight="700">Eastern</text>
+  </g>
+  <g transform="translate(34 386)">
+    <rect width="652" height="62" rx="18" fill="#ffffff" opacity="0.9"/>
+    <text x="28" y="38" fill="#084f38" font-family="Arial, sans-serif" font-size="24" font-weight="700">Local preview mode</text>
+    <text x="245" y="38" fill="#246b4f" font-family="Arial, sans-serif" font-size="20">Kiosk regions and labels are available locally without remote portal assets.</text>
+  </g>
+</svg>
